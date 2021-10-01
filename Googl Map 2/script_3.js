@@ -1,0 +1,1 @@
+document.getElementsByClassName('n7lv7yjyC35__button-next-icon')[0].click();

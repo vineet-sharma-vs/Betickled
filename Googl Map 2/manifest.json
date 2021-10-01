@@ -1,0 +1,24 @@
+{
+
+    "manifest_version" : 2,  
+    "name": "Google Map Scraper",
+    "version": "2",
+    "description": "lets scrape",
+    "content_scripts": [
+    { 
+      "matches" : ["<all_urls>"],
+      "css": ["style_1.css"]
+    }],
+    "background": { 
+      "scripts": ["jquery-2.1.3.min.js","background.js"]
+    },
+    "browser_action": {
+      "default_popup":"popup.html"
+    },
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "https://*/*"
+      ]
+
+}
